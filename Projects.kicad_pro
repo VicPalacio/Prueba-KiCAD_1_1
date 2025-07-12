@@ -88,7 +88,7 @@
         "items_not_allowed": "error",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
-        "lib_footprint_mismatch": "warning",
+        "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
         "mirrored_text_on_front_layer": "warning",
@@ -242,12 +242,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "power_pin_not_driven|1397000|1219200|efc8a357-a422-411b-b088-f6267c1e8d88|00000000-0000-0000-0000-000000000000|/067f39fb-7e47-4284-ac21-d536d7af9487|/067f39fb-7e47-4284-ac21-d536d7af9487|",
-        ""
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -507,7 +502,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "Projects_gerber/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
